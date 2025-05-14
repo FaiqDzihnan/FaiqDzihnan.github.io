@@ -54,10 +54,11 @@ header .navigation a{
 
 header .navigation a:hover{
     color: #3a6cf4;
+
 }
 
-header .sticky .navigation a:hover{
-    color: black;
+header.sticky .navigation a:hover{
+    color: black !important;
 }
 
 section{
@@ -318,17 +319,17 @@ section{
 }
 
 .skills .content .col-right .bar .css::before{
-    width: 90%;
+    width: 80%;
     background-color: #0c73b8;
 }
 
 .skills .content .col-right .bar .javascript::before{
-    width: 80%;
+    width: 75%;
     background-color: #e3a324;
 }
 
 .skills .content .col-right .bar .python::before{
-    width: 85%;
+    width: 70%;
     background-color: blue;
 }
 
@@ -337,6 +338,15 @@ section{
     background-color: #6d7eb8;
 }
 
+.skills .content .col-right .bar .ui::before{
+    width: 90%;
+    background-color: #35ae3d;
+}
+
+.skills .content .col-right .bar .wp::before{
+    width: 90%;
+    background-color: #d9ea1d;
+}
 /* Services */
 
 .services .content{
