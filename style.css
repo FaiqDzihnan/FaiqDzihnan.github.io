@@ -70,7 +70,7 @@ section{
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(Image/bg.jpg);
+    background-image: url(Image/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@ section{
 
 .about .content .col-left{
     position: relative;
-    width: 45%;
+    width: 40%;
 }
 
 .about .content .col-right{
@@ -225,7 +225,7 @@ section{
 .about .content .col-left .img-card{
     position: relative;
     width: 100%;
-    min-height: 450px;
+    min-height: 500px;
 }
 
 .about .content .col-left .img-card img{
