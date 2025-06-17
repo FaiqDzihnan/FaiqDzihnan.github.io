@@ -5,12 +5,13 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body{
     width: 100%;
     height: auto;
-    overflow-x: hidden;
 }
 
 header{
@@ -59,7 +60,7 @@ header .navigation a{
     font-size: 1em;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 30px;
+    padding-left: 30px;
 }
 
 header .navigation a:hover{
@@ -86,10 +87,6 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.main .content{
-    max-width: 800px;
 }
 
 .main .content h2{
@@ -832,7 +829,11 @@ section{
 @media (max-width: 480px) {
     
     header{
-        padding: 10px 16px;
+        padding: 12px 20px;
+    }
+
+    header.sticky{
+        padding: 10px 20px;
     }
     
     header .logo{
