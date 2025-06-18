@@ -521,7 +521,7 @@ section{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    transition: 0.3s linear;
+    transition: 0.3s ease;
 }
 
 .work .content .card .card-img img:hover{
@@ -915,7 +915,7 @@ section{
     header .navigation a:hover{
         background-color: #3a6cf4;
         color: white;
-        transition: 0.3s ease;
+        transition: 0.2s ease;
     }
 
     .menu-btn{
@@ -924,8 +924,8 @@ section{
         background-position: center;
         background-size: 30px;
         background-repeat: no-repeat;
-        width: 20px;
-        height: 20px;
+        width: 26px;
+        height: 23px;
         right: 0;
         margin: 0 20px;
         cursor: pointer;
