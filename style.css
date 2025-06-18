@@ -725,7 +725,7 @@ section{
         box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
         transition: 0.3s ease;
     }
-
+    
     header .navigation a{
         color: black;
         font-size: 1.2em;
@@ -869,24 +869,44 @@ section{
     .navigation.active{
         z-index: 889;
         position: fixed;
-        background-color: white;
+        background-color: transparent;
         top: 0;
         right: 0;
         width: 200px;
-        height: 100%;
+        height: 70%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-end;
         flex-direction: column;
         box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
         transition: 0.3s ease;
     }
 
+    header .navigation .menu-list{
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
     header .navigation a{
-        color: black;
+        color: white;
+        background-color: #201c2c;
         font-size: 1em;
-        margin: 10px;
-        padding: 10px 40px;
+        margin: 5px;
+        padding: 15px;
+        width: 90px;
+        border-radius: 5px;
+    }
+    
+    header.sticky .navigation a{
+        color: white;
+        background-color: #3a6cf4;
+        font-size: 1em;
+        margin: 5px;
+        padding: 15px;
+        width: 90px;
         border-radius: 5px;
     }
 
