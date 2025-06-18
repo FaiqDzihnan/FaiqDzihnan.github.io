@@ -879,6 +879,9 @@ section{
         align-items: flex-end;
         flex-direction: column;
         transition: 0.3s ease;
+        border: none;
+        box-shadow: none;
+        outline: none;
     }
 
     header .navigation .menu-list{
