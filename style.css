@@ -190,6 +190,9 @@ section{
     margin-right: 30px;
 }
 
+.media-icons a i:hover{
+    color: #3a6cf4;
+}
 
 /* About */
 
